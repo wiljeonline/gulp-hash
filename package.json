@@ -1,59 +1,60 @@
 {
-  "name": "gulp-hash",
-  "version": "4.2.2",
-  "description": "Cachebust your assets by adding a hash to the filename",
-  "license": "MIT",
-  "keywords": [
-    "cache",
-    "cachebust",
-    "cache bust",
-    "gulpplugin"
-  ],
-  "author": {
-    "name": "Miikka",
-    "email": "contact@mivir.fi"
-  },
-  "contributors": [
-    {
-      "name": "https://github.com/coen-hyde"
+    "name": "gulp-hash",
+    "version": "4.2.2",
+    "description": "Cachebust your assets by adding a hash to the filename",
+    "license": "MIT",
+    "keywords": [
+      "cache",
+      "cachebust",
+      "cache bust",
+      "gulpplugin"
+    ],
+    "author": {
+      "name": "Miikka",
+      "email": "contact@mivir.fi"
     },
-    {
-      "name": "https://github.com/jorrit"
+    "contributors": [
+      {
+        "name": "https://github.com/coen-hyde"
+      },
+      {
+        "name": "https://github.com/jorrit"
+      },
+      {
+        "name": "https://github.com/ai"
+      },
+      {
+        "name": "https://github.com/othree"
+      },
+      {
+        "name": "https://github.com/outpunk"
+      },
+      {
+        "name": "https://github.com/MEGApixel23"
+      },
+      {
+        "name": "https://github.com/migolo"
+      }
+    ],
+    "homepage": "https://github.com/Dragory/gulp-hash",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:Dragory/gulp-hash.git"
     },
-    {
-      "name": "https://github.com/ai"
+    "scripts": {
+      "test": "mocha ./test"
     },
-    {
-      "name": "https://github.com/othree"
+    "main": "./index.js",
+    "dependencies": {
+      "es6-promise": "^4.2.8",
+      "lodash.assign": "^4.2.0",
+      "lodash.template": "^4.5.0",
+      "through2": "^4.0.2",
+      "vinyl": "^2.2.1"
     },
-    {
-      "name": "https://github.com/outpunk"
-    },
-    {
-      "name": "https://github.com/MEGApixel23"
-    },
-    {
-      "name": "https://github.com/migolo"
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "mocha": "^9.1.3"
     }
-  ],
-  "homepage": "https://github.com/Dragory/gulp-hash",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Dragory/gulp-hash.git"
-  },
-  "scripts": {
-    "test": "mocha ./test"
-  },
-  "main": "./index.js",
-  "dependencies": {
-    "es6-promise": "^2.1.1",
-    "lodash.assign": "^2.4.1",
-    "lodash.template": "^2.4.1",
-    "through2": "^2.0.0",
-    "vinyl": "^2.1.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "mocha": "^1.20.1"
   }
-}
+  
